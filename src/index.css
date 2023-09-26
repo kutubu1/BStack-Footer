@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@layer base {
+  @font-face {
+      font-family:Head ;
+      font-weight: bold;
+      src: url('/public/d3euronism/D3Euronism_b.ttf');
+  }
+
+  @font-face {
+      font-family: clearSans;
+      font-weight: 300;
+      src: url('/clearSans/ClearSans-Light.ttf');
+  }
+}
+
+.list-link {
+  font-family: 'Head';
+}
+
+.copyright {
+  font-family: 'clearSans';
+}
+  
